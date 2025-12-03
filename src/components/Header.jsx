@@ -1,4 +1,4 @@
-import logo from "../../public/logo.PNG";
+
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
@@ -16,7 +16,7 @@ const Header = () => {
       onClick={() => navigate("/")}
     >
       <img 
-        src={logo}
+        src="/logo.png"
         alt="Kaf8 Logo" 
         className="h-[75px] w-[75px] rounded-lg object-cover"
       />
