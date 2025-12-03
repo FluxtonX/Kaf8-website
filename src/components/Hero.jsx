@@ -48,7 +48,7 @@ const Hero = () => {
             >
               <div className="flex items-center gap-3">
                
-               <img src="/Vector.PNG" alt=""  className='w-8 h-8'/>
+               <img src="/Vector.png" alt=""  className='w-8 h-8'/>
                 <div className="text-left">
                   <div className="text-xs">Télécharger dans</div>
                   <div className="text-sm font-semibold">l'App Store</div>
