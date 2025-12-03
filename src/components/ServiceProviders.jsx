@@ -1,8 +1,7 @@
 import React from 'react';
-import cutton from "../../public/cutton.PNG";
-import cycle from "../../public/cycle.PNG";
-import delever from "../../public/delever.PNG";
-import room from "../../public/room.PNG";
+
+
+
 
 const ServiceProviders = () => {
   return (
@@ -21,14 +20,14 @@ const ServiceProviders = () => {
           <div className="grid grid-rows-2 gap-4">
             <div className="rounded-2xl overflow-hidden h-full">
               <img 
-                src={cutton}
+                src="/cutton.png"
                 alt="Delivery person with package" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-2xl overflow-hidden h-full">
               <img 
-                src={delever} 
+                src="/delever.png"
                 alt="Delivery van" 
                 className="w-full h-full object-cover"
               />
@@ -38,7 +37,7 @@ const ServiceProviders = () => {
           {/* Second Column - 1 tall image (2 row span) */}
           <div className="rounded-2xl overflow-hidden row-span-1">
             <img 
-              src={cycle}
+              src="/cycle.png"
               alt="Bicycle delivery" 
               className="w-full h-full object-cover"
             />
@@ -47,7 +46,7 @@ const ServiceProviders = () => {
           {/* Third Column - 1 tall image (2 row span) */}
           <div className="rounded-2xl overflow-hidden row-span-1">
             <img 
-              src={room} 
+              src="/room.png" 
               alt="Delivery person at door" 
               className="w-full h-full object-cover"
             />
@@ -59,7 +58,7 @@ const ServiceProviders = () => {
           {/* Top Left */}
           <div className="rounded-2xl overflow-hidden">
             <img 
-              src={cutton}
+              src="/cutton.png"
               alt="Delivery person with package" 
               className="w-full h-full object-cover"
             />
@@ -68,7 +67,7 @@ const ServiceProviders = () => {
           {/* Top Right - Tall (2 row span) */}
           <div className="rounded-2xl overflow-hidden row-span-2">
             <img 
-              src={cycle}
+              src="/cycle.png"
               alt="Bicycle delivery" 
               className="w-full h-full object-cover"
             />
@@ -77,7 +76,7 @@ const ServiceProviders = () => {
           {/* Bottom Left */}
           <div className="rounded-2xl overflow-hidden">
             <img 
-              src={delever}
+              src="/delever.png"
               alt="Delivery van" 
               className="w-full h-full object-cover"
             />
@@ -86,7 +85,7 @@ const ServiceProviders = () => {
           {/* Bottom Full Width */}
           <div className="rounded-2xl overflow-hidden col-span-2">
             <img 
-              src={room}
+              src="/room.png"
               alt="Delivery person at door" 
               className="w-full h-64 object-cover"
             />

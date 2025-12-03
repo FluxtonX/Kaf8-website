@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Phone, Mail, Facebook, Instagram } from "lucide-react";
-import applestore from "../../public/Vector.PNG";
-import playstore from "../../public/GooglePlay.PNG";
-import bgShape from "../../public/bg.png";
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -43,7 +41,7 @@ const Contact = () => {
                 className="inline-flex items-center justify-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
               >
                 <div className="flex items-center gap-3">
-                  <img src={applestore} alt="" className="w-7 h-7" />
+                  <img src="/Vector.png" alt="" className="w-7 h-7" />
                   <div className="text-left">
                     <div className="text-xs">Télécharger dans</div>
                     <div className="text-base font-semibold">l'App Store</div>
@@ -56,7 +54,7 @@ const Contact = () => {
                 className="inline-flex items-center justify-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
               >
                 <div className="flex items-center gap-3">
-                  <img src={playstore} alt="" className="w-7 h-7" />
+                  <img src="/GooglePlay.png"alt="" className="w-7 h-7" />
                   <div className="text-left">
                     <div className="text-xs">Disponible sur</div>
                     <div className="text-base font-semibold">
@@ -134,7 +132,7 @@ const Contact = () => {
             <div className="relative  ml-auto lg:w-[550px] w-full lg:-mr-6">
               {/* Shape Image */}
               <img
-                src={bgShape}
+                src="/bg.png"
                 alt=""
                 className="w-full h-auto object-cover block"
                 style={{ display: 'block', maxWidth: 'none' }}

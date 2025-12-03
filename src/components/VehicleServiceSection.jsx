@@ -1,8 +1,4 @@
 import React from "react";
-import vehicleFleet from "../../public/cars.PNG";
-import applestore from "../../public/Vector.PNG";
-import playstore from "../../public/GooglePlay.PNG";
-
 const VehicleServiceSection = () => {
   return (
    <section id="telecharger"  className="relative w-full py-16 px-4 bg-gray-light overflow-hidden">
@@ -22,7 +18,7 @@ const VehicleServiceSection = () => {
         {/* BUTTONS — hide on small screen */}
         <div className="hidden sm:flex flex-row flex-wrap gap-4">
           <a className="inline-flex items-center bg-black text-white px-6 py-3 rounded-lg">
-            <img src={applestore} className="w-8 h-8" />
+            <img src="/Vector.png" className="w-8 h-8" />
             <div className="ml-3 text-left">
               <div className="text-xs">Télécharger dans</div>
               <div className="text-sm font-semibold">l'App Store</div>
@@ -30,7 +26,7 @@ const VehicleServiceSection = () => {
           </a>
 
           <a className="inline-flex items-center bg-black text-white px-6 py-3 rounded-lg">
-            <img src={playstore} className="w-8 h-8" />
+            <img src="/GooglePlay.png" className="w-8 h-8" />
             <div className="ml-3 text-left">
               <div className="text-xs">Disponible sur</div>
               <div className="text-sm font-semibold">Google Play Store</div>
@@ -42,7 +38,7 @@ const VehicleServiceSection = () => {
       {/* RIGHT IMAGE — bigger image */}
       <div className="flex-1 flex  justify-center">
         <img 
-          src={vehicleFleet}
+          src="/cars.png"
           className="
             w-full 
             max-w-[1000px]   /* Bigger width */
@@ -51,6 +47,7 @@ const VehicleServiceSection = () => {
             object-contain
             
           "
+          alt="cars"
         />
       </div>
 

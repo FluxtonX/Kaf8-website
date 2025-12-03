@@ -1,5 +1,5 @@
 import React from 'react';
-import phoneApp from "../../public/phone2.PNG";
+
 
 const Features = () => {
   return (
@@ -39,9 +39,10 @@ const Features = () => {
       {/* Phone Image - center column, spans 2 rows */}
       <div className="lg:col-start-2 lg:row-start-1 lg:row-span-2 flex justify-center">
         <img
-          src={phoneApp}
+          src="phone2.png"
           alt="Kaf8 App Interface"
           className="w-64 lg:w-80 xl:w-96 h-auto drop-shadow-2xl"
+        
         />
       </div>
 
