@@ -22,7 +22,7 @@ const About = () => {
           {/* Left Side - Mobile App Images (Desktop) */}
           <div className="hidden lg:flex justify-center items-start pt-12">
             <img 
-              src="/frame66.png"
+              src="/Frame66.png"
               alt="Kaf8 App Interface" 
               className="w-80 xl:w-96 h-auto drop-shadow-2xl"
             />
